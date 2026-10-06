@@ -1,0 +1,51 @@
+{
+  "verifiedAt": "2026-10-06T08:44:45.207Z",
+  "repeatDeployers": [
+    {
+      "address": "0x5c69bee701ef814a2b6a3edd4b1652cb9cc5aa6f",
+      "count": 4,
+      "transactions": [
+        "0xd07cbde817318492092cc7a27b3064a69bd893c01cb593d6029683ffd290ab3a",
+        "0xc4c1840db940f5075c5404266efe50d7c65bc079f318ab8e5a10b8a432b49d30",
+        "0xe64069acd123ec94b8a3316378183ba8bf42b40979df3b0bb57b0e7b9e47ef38",
+        "0x7578a3b32f0c884422126d606098d164eca40d0e51bae3d997bb993cc1646b13"
+      ]
+    }
+  ],
+  "repeatBuyers": 6,
+  "groups": 8,
+  "funding": 0,
+  "sells": 15,
+  "proceeds": 0,
+  "coverage": [
+    {
+      "wallet": "0xf27696c8bca7d54d696189085ae1283f59342fa6",
+      "fromBlock": 10066470,
+      "toBlock": 10104502,
+      "returned": 100,
+      "cap": 100,
+      "complete": false
+    },
+    {
+      "wallet": "0xdd5a1c148ca114af2f4ebc639ce21fed4730a608",
+      "error": "HTTP 429"
+    },
+    {
+      "wallet": "0x0385b3f162a0e001b60ecb84d3cb06199d78f666",
+      "error": "HTTP 429"
+    },
+    {
+      "wallet": "0x965b813b302dfccdf6c2f676d59d7d3c960d3582",
+      "error": "HTTP 429"
+    },
+    {
+      "wallet": "0x4d37f28d2db99e8d35a6c725a5f1749a085850a3",
+      "error": "HTTP 429"
+    },
+    {
+      "wallet": "0x90c29fe72e67db90a8b3a66277414da21e116652",
+      "error": "HTTP 429"
+    }
+  ],
+  "errors": []
+}

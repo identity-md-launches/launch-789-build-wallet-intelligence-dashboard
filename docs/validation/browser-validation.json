@@ -1,0 +1,306 @@
+{
+  "startedAt": "2026-10-06T09:16:31.922Z",
+  "checks": [
+    {
+      "name": "production subpath and local font",
+      "result": "passed",
+      "detail": "Export served under /preview/, four real creation rows present."
+    },
+    {
+      "name": "table filter, empty state and chronological sort",
+      "result": "passed"
+    },
+    {
+      "name": "keyboard evidence dialog, real transaction link and focus return",
+      "result": "passed"
+    },
+    {
+      "name": "buyer overlap, funding limitation and 15 subsequent sell links",
+      "result": "passed"
+    },
+    {
+      "name": "IMD packet export",
+      "result": "passed",
+      "detail": "Downloaded JSON contains edited question, real evidence and not-submitted status."
+    },
+    {
+      "name": "evidence JSON export",
+      "result": "passed"
+    },
+    {
+      "name": "address validation and captured token search",
+      "result": "passed"
+    },
+    {
+      "name": "all three unsupported networks explicitly labeled",
+      "result": "passed"
+    },
+    {
+      "name": "skip link preserves the current route",
+      "result": "passed"
+    },
+    {
+      "name": "watchlist persistence and input validation",
+      "result": "passed"
+    },
+    {
+      "name": "real public-indexer monitoring baseline",
+      "result": "passed",
+      "detail": "Checked 1/1 addresses at 9:16:34 AM. 0 new transaction observations."
+    },
+    {
+      "name": "synthetic monitoring replay and mark-read",
+      "result": "passed",
+      "detail": "Two mocked pages generate one deduplicated alert; test-only hashes never enter shipped data."
+    },
+    {
+      "name": "real live token lookup",
+      "result": "passed",
+      "detail": "Public Blockscout browser request for WETH succeeded."
+    },
+    {
+      "name": "recoverable provider failure",
+      "result": "passed",
+      "detail": "Synthetic 503 shown with retry guidance; captured evidence remains available."
+    },
+    {
+      "name": "hash navigation, dedicated deployments and recurring groups",
+      "result": "passed"
+    },
+    {
+      "name": "responsive reflow",
+      "result": "passed",
+      "detail": "No root horizontal overflow at 1440, 1024, 768, 390 and 320 CSS px; evidence tables scroll within their region."
+    },
+    {
+      "name": "visible focus styles and reduced-motion spinner fallback",
+      "result": "passed"
+    },
+    {
+      "name": "measured rendered contrast pairs",
+      "result": "passed",
+      "detail": [
+        {
+          "selector": ".page-heading p",
+          "foreground": "rgb(160, 167, 159)",
+          "background": "rgb(16, 18, 17)",
+          "ratio": 7.63
+        },
+        {
+          "selector": ".metric-top",
+          "foreground": "rgb(160, 167, 159)",
+          "background": "rgb(24, 27, 25)",
+          "ratio": 7.05
+        },
+        {
+          "selector": ".metric-value",
+          "foreground": "rgb(240, 242, 237)",
+          "background": "rgb(24, 27, 25)",
+          "ratio": 15.4
+        },
+        {
+          "selector": ".badge.green",
+          "foreground": "rgb(159, 214, 172)",
+          "background": "rgb(35, 49, 39)",
+          "ratio": 8.24
+        },
+        {
+          "selector": ".primary-button",
+          "foreground": "rgb(16, 18, 17)",
+          "background": "rgb(193, 241, 122)",
+          "ratio": 14.45
+        },
+        {
+          "selector": ".tabs button[aria-pressed=\"true\"]",
+          "foreground": "rgb(193, 241, 122)",
+          "background": "rgb(24, 27, 25)",
+          "ratio": 13.33
+        }
+      ]
+    },
+    {
+      "name": "no runtime exceptions or failed local resources",
+      "result": "passed"
+    }
+  ],
+  "consoleErrors": [],
+  "failedLocalResources": [],
+  "live": {
+    "monitorBaseline": "Checked 1/1 addresses at 9:16:34 AM. 0 new transaction observations.",
+    "lookup": "Live indexer response\nWETH\nWatch address\n0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2\nERC-20\nRetrieved 10/6/2026, 9:16:41 AM\n\nIndexed creator: 0x4F26…0876\n Creation transaction\n\nMost recent page only: up to 50 transactions and 50 internal traces. Older pages exist. Created contracts below have not been classified as tokens. Funding and buyer analysis are available in the captured case.\n\n0 contract creations in retrieved pages\n\nNo creation found in these pages. This does not establish a complete deployment history.\n\nRecent transactions\n0x759b…fff6\n  0xC02a…6Cc2\n\nPending · block pending · status unavailable\n\nView transaction\n0x2c77…300C\n  0xC02a…6Cc2\n\nPending · block pending · status unavailable\n\nView transaction\n0x8eeC…a876\n  0xC02a…6Cc2\n\nPending · block pending · status unavailable\n\nView transaction\n0x70EF…5FbF\n  0xC02a…6Cc2\n\nPending · block pending · status unavailable\n\nView transaction\n0x8E1D…CaF7\n  0xC02a…6Cc2\n\nPending · block pending · status unavailable\n\nView transaction\n0xd523…59Af\n  0xC02a…6Cc2\n\nPending · block pending · status unavailable\n\nView transaction\n0x530b…0A69\n  0xC02a…6Cc2\n\nPending · block pending · status unavailable\n\nView transaction\n0xb2db…2D83\n  0xC02a…6Cc2\n\nPending · block pending · status unavailable\n\nView transaction\n0xFe8C…3dFE\n  0xC02a…6Cc2\n\nPending · block pending · status unavailable\n\nView transaction\n0x8389…803F\n  0xC02a…6Cc2\n\nPending · block pending · status unavailable\n\nView transaction\n0x9Eb7…De5a\n  0xC02a…6Cc2\n\nPending · block pending · status unavailable\n\nView transaction\n0x3254…4A74\n  0xC02a…6Cc2\n\nPending · block pending · status unavailable\n\nView transaction\nReturn to captured case"
+  },
+  "accessibility": [
+    {
+      "label": "desktop overview",
+      "violations": [],
+      "passes": 30,
+      "incomplete": [
+        "aria-prohibited-attr",
+        "color-contrast"
+      ]
+    },
+    {
+      "label": "creation evidence dialog",
+      "violations": [],
+      "passes": 17,
+      "incomplete": [
+        "color-contrast"
+      ]
+    },
+    {
+      "label": "overview 1440",
+      "violations": [],
+      "passes": 30,
+      "incomplete": [
+        "aria-prohibited-attr",
+        "color-contrast"
+      ]
+    },
+    {
+      "label": "overview 390",
+      "violations": [],
+      "passes": 30,
+      "incomplete": [
+        "aria-prohibited-attr",
+        "color-contrast"
+      ]
+    },
+    {
+      "label": "overview 320",
+      "violations": [],
+      "passes": 30,
+      "incomplete": [
+        "aria-prohibited-attr",
+        "color-contrast"
+      ]
+    }
+  ],
+  "viewports": [
+    {
+      "label": "overview 1440",
+      "width": 1440,
+      "documentWidth": 1440
+    },
+    {
+      "label": "watchlist 1440",
+      "width": 1440,
+      "documentWidth": 1440
+    },
+    {
+      "label": "alerts 1440",
+      "width": 1440,
+      "documentWidth": 1440
+    },
+    {
+      "label": "overview 1024",
+      "width": 1024,
+      "documentWidth": 1024
+    },
+    {
+      "label": "watchlist 1024",
+      "width": 1024,
+      "documentWidth": 1024
+    },
+    {
+      "label": "alerts 1024",
+      "width": 1024,
+      "documentWidth": 1024
+    },
+    {
+      "label": "overview 768",
+      "width": 768,
+      "documentWidth": 768
+    },
+    {
+      "label": "watchlist 768",
+      "width": 768,
+      "documentWidth": 768
+    },
+    {
+      "label": "alerts 768",
+      "width": 768,
+      "documentWidth": 768
+    },
+    {
+      "label": "overview 390",
+      "width": 390,
+      "documentWidth": 390
+    },
+    {
+      "label": "watchlist 390",
+      "width": 390,
+      "documentWidth": 390
+    },
+    {
+      "label": "alerts 390",
+      "width": 390,
+      "documentWidth": 390
+    },
+    {
+      "label": "overview 320",
+      "width": 320,
+      "documentWidth": 320
+    },
+    {
+      "label": "watchlist 320",
+      "width": 320,
+      "documentWidth": 320
+    },
+    {
+      "label": "alerts 320",
+      "width": 320,
+      "documentWidth": 320
+    }
+  ],
+  "contrast": [
+    {
+      "selector": ".page-heading p",
+      "foreground": "rgb(160, 167, 159)",
+      "background": "rgb(16, 18, 17)",
+      "ratio": 7.63
+    },
+    {
+      "selector": ".metric-top",
+      "foreground": "rgb(160, 167, 159)",
+      "background": "rgb(24, 27, 25)",
+      "ratio": 7.05
+    },
+    {
+      "selector": ".metric-value",
+      "foreground": "rgb(240, 242, 237)",
+      "background": "rgb(24, 27, 25)",
+      "ratio": 15.4
+    },
+    {
+      "selector": ".badge.green",
+      "foreground": "rgb(159, 214, 172)",
+      "background": "rgb(35, 49, 39)",
+      "ratio": 8.24
+    },
+    {
+      "selector": ".primary-button",
+      "foreground": "rgb(16, 18, 17)",
+      "background": "rgb(193, 241, 122)",
+      "ratio": 14.45
+    },
+    {
+      "selector": ".tabs button[aria-pressed=\"true\"]",
+      "foreground": "rgb(193, 241, 122)",
+      "background": "rgb(24, 27, 25)",
+      "ratio": 13.33
+    }
+  ],
+  "limitations": [
+    "Headless Chromium, not a physical device or screen-reader session.",
+    "No native browser 200% zoom or translated locale session.",
+    "Public APIs can change or throttle. Alert replay is explicitly synthetic."
+  ],
+  "browser": "154.0.8037.0",
+  "focus": {
+    "color": "rgb(193, 241, 122)",
+    "width": "2px",
+    "style": "solid"
+  },
+  "result": "passed",
+  "finishedAt": "2026-10-06T09:16:44.440Z"
+}
